@@ -1,0 +1,161 @@
+{
+    "resourceType": "Patient",
+    "id": "eVbiwxCVmsGszFAwInBfMzA3",
+    "meta": {
+        "profile": [
+            "http://fhir.nl/fhir/StructureDefinition/nl-core-patient"
+        ]
+    },
+    "extension": [
+        {
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "urn:oid:1.2.840.114350.1.13.485.3.7.10.698084.130.657370.444039",
+                        "code": "female",
+                        "display": "female"
+                    }
+                ]
+            },
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/legal-sex"
+        },
+        {
+            "valueCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "urn:oid:1.2.840.114350.1.13.485.3.7.10.698084.130.657370.444039",
+                        "code": "female",
+                        "display": "female"
+                    }
+                ]
+            },
+            "url": "http://open.epic.com/FHIR/StructureDefinition/extension/sex-for-clinical-use"
+        }
+    ],
+    "identifier": [
+        {
+            "use": "usual",
+            "type": {
+                "text": "EPIC"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.485.3.7.5.737384.0",
+            "value": "E4554"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "text": "EXTERNAL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.485.3.7.2.698084",
+            "value": "Z4572"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "text": "FHIR"
+            },
+            "system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+            "value": "TQSYOdxn1A2GaIU6JS8KZMTM9lXsdpzR-0CHbjMp6g6AB"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "text": "FHIR STU3"
+            },
+            "system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+            "value": "eVbiwxCVmsGszFAwInBfMzA3"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "text": "INTERNAL"
+            },
+            "system": "urn:oid:1.2.840.114350.1.13.485.3.7.2.698084",
+            "value": "     Z4572"
+        },
+        {
+            "use": "usual",
+            "type": {
+                "text": "UMCG"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.4.3.8.12",
+            "value": "2019831"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "extension": [
+                {
+                    "valueCode": "NL4",
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order"
+                }
+            ],
+            "use": "official",
+            "text": "A. Researchtest",
+            "family": "Researchtest",
+            "given": [
+                "A."
+            ],
+            "_family": {
+                "extension": [
+                    {
+                        "valueString": "Researchtest",
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
+                    }
+                ]
+            }
+        },
+        {
+            "extension": [
+                {
+                    "valueCode": "NL4",
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order"
+                }
+            ],
+            "use": "usual",
+            "text": "A. Researchtest",
+            "family": "Researchtest",
+            "given": [
+                "A."
+            ],
+            "_family": {
+                "extension": [
+                    {
+                        "valueString": "Researchtest",
+                        "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-name"
+                    }
+                ]
+            }
+        }
+    ],
+    "gender": "female",
+    "birthDate": "1932-01-10",
+    "deceasedBoolean": false,
+    "address": [
+        {
+            "use": "home",
+            "city": "GRONINGEN",
+            "postalCode": "9718 KK",
+            "country": "NLD",
+            "_line": [
+                {
+                    "extension": [
+                        {
+                            "valueString": "T MESDAGSTR",
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"
+                        },
+                        {
+                            "valueString": "12",
+                            "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "managingOrganization": {
+        "reference": "https://icf-poc.umcg.nl/POC-OAUTH2/api/FHIR/STU3/Organization/eXovwVA3zYl3U3fBH8mdkxw3",
+        "display": "UMCG"
+    }
+}
