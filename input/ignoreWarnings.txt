@@ -8,9 +8,10 @@ URL-waarde 'http://open.epic.com/FHIR/%
 URL-waarde 'urn:oid:1.2.840.114350.1.13.485.%
 De definitie voor CodeSystem 'urn:oid:1.2.840.114350.1.13.485.%
 A definition for CodeSystem 'urn:oid:1.2.840.114350.1.13.485.%
+Unable to check whether the code is in the value set '' because the code system urn:oid:1.2.840.114350.1.13.485.%
 
 # BSN
 URL-waarde 'urn:oid:2.16.840.1.113883.2.4.3.8.12' komt nergens uit
 
 # Not an issue
-Dit element komt niet overeen met een bekende slice defined in the profile http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core|0.1.0-ballot (mogelijk geen probleem, maar controleer of dat mogelijk toch de bedoeling was)
+Dit element komt niet overeen met een bekende slice defined in the profile http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core|0.1.0 (mogelijk geen probleem, maar controleer of dat mogelijk toch de bedoeling was)
