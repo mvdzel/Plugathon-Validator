@@ -33,6 +33,10 @@
             {
                 "code": "i18n-default-lang",
                 "value": "nl-NL"
+            },
+            {
+                "code": "extension-domain",
+                "value": "http://open.epic.com"
             }
         ]
     }
