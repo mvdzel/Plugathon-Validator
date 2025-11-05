@@ -89,7 +89,7 @@ DEPENDENCIES = {
         {
             "uri": "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base",
             "packageId": "hl7.fhir.eu.base",
-            "version": "0.1.0-ballot"
+            "version": "0.1.0"
         }
     ],
     "eps": [
